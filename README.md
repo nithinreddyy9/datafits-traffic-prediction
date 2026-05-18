@@ -1,30 +1,99 @@
 # DATAFITS Traffic Prediction
 
-DATAFITS is a heterogeneous data fusion framework developed for traffic flow and incident prediction using machine learning techniques.
+## Overview
 
-## Project Overview
-The project integrates traffic, weather, and incident datasets to improve prediction accuracy and support smarter urban mobility systems.
+DATAFITS is a machine learning-based traffic flow and incident prediction framework that uses heterogeneous data fusion techniques to analyze and predict traffic conditions.
 
-## Technologies Used
-- Python
-- Machine Learning
-- Data Fusion
-- Predictive Modeling
-- Data Analytics
+---
 
 ## Features
-- Traffic prediction
+
+- Traffic flow prediction
 - Incident detection
-- Real-time analytics
-- Data integration
+- Machine learning model training
+- Data preprocessing
+- Visualization dashboards
+- Smart traffic analytics
 
-## Objectives
-- Improve traffic flow prediction
-- Enhance incident forecasting
-- Support smart city transportation systems
+---
 
-## Outcomes
-The project helps:
-- Improve urban mobility
-- Reduce traffic congestion
-- Enable smarter traffic management
+## Technologies Used
+
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+- TensorFlow
+- Matplotlib
+- Jupyter Notebook
+
+---
+
+## Project Structure
+
+```text
+datafits-traffic-prediction/
+│
+├── data/
+│   ├── raw/
+│   └── processed/
+│
+├── notebooks/
+├── src/
+├── models/
+├── results/
+│   └── graphs/
+│
+├── README.md
+├── requirements.txt
+└── .gitignore
+```
+
+---
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/yourusername/datafits-traffic-prediction.git
+```
+
+Go to the project folder:
+
+```bash
+cd datafits-traffic-prediction
+```
+
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## Machine Learning Workflow
+
+1. Data Collection
+2. Data Cleaning
+3. Feature Engineering
+4. Model Training
+5. Traffic Prediction
+6. Visualization
+
+---
+
+## Future Improvements
+
+- Real-time traffic prediction
+- IoT integration
+- Deep learning models
+- Smart city dashboards
+- API deployment
+
+---
+
+## Author
+
+Nithin Reddy
